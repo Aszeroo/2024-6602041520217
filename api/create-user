@@ -1,0 +1,11 @@
+Invoke-RestMethod -Uri ”http://localhost:8080/api/auth/local/register“ `
+  -Method Post `
+  -Headers @{
+    ”Content-Type“ = ”application/json“;
+    ”Authorization“ = ”Bearer 1551e137bd8ca086698eec6fdd16de6113f1de108c654fe9142230de442437e1af920fe12990cca2b9064962b651bed21e8f69b954e26d36a519130a913826f7154ef6101583aeaeea82af0dac3c57a4c3a4becee65240c91ab73537a519b478b8dcc0781eda7f6a66dff8a7cd6ab17d316a79cb4c1c803c6752ba652fdf5d0a“
+  } `
+  -Body ’{
+    ”username“: ”wasu999“,
+    ”email“: ”sea1412@gmail.com“,
+    ”password“: ”P@ssw0rd“
+  }‘
