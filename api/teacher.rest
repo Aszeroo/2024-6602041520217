@@ -1,0 +1,10 @@
+### Insert Teacher
+POST http://localhost:8080/api/teachers
+Authorization: Bearer 36b4ff28be8d8a9e9c9fd82f5e36c12d9d697fd059db46f44e0bbd5c507cc7a5f6f8223733896ec90535f29a00439ea9a797e9dd5ef33cfd8a18b3ffa73a77ef73da582f6bead59bca2778dd4d0199b4ed8316f8f584db7a41082e019225c674feae3758b7215a1a7f7488f1bbaf839455ff7cb6fb6e3760be9cbe26703c2d25
+Content-Type: application/json
+
+{
+  "data": {
+    "name": "Prawee Wongsa"
+  }
+}
